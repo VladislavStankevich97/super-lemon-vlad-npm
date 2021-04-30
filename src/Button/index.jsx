@@ -1,0 +1,10 @@
+import * as React from 'react';
+import "./Button.css"
+
+export default function Button() {
+    return (
+        <div className="Button">
+            <a href="" class="gradient-button">тык js</a>
+        </div>
+    )
+}
