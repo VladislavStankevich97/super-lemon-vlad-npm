@@ -1,6 +1,6 @@
 {
   "name": "super-lemon-vlad-npm",
-  "version": "1.6.2",
+  "version": "1.6.4",
   "description": "",
   "main": "./build/index.js",
   "scripts": {

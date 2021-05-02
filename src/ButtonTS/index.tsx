@@ -1,14 +1,17 @@
 import * as React from 'react';
 
-interface ButtonsTs {
-    backgroundColor?:string;
+interface ButtonsTS {
+    backgroundColor?: string;
     label?: string;
-    height?:number;
+    height?: number;
+    width?: number;
 }
 
-const ButtonTS: React.FC<ButtonsTs> = ({backgroundColor,label, height}) => {
+const ButtonTS: React.FC<ButtonsTS> = ({ backgroundColor, label, height, width }) => {
     return (
-        <button style={{backgroundColor: backgroundColor, height:height}}>{label}тык ts</button>
+        <button style={{ backgroundColor: backgroundColor, height: height, width: width }}>
+            {label}
+        </button>
     )
 }
 

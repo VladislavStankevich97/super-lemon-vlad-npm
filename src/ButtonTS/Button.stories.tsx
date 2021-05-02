@@ -3,23 +3,22 @@ import { Story, Meta } from '@storybook/react';
 import ButtonTS from './index';
 
 export default {
-  title: 'Example/Button1',
+  title: 'ButtonTS',
   component: ButtonTS,
   argTypes: {
     backgroundColor: { control: 'color' },
   },
 } as Meta;
 
-const Template: Story = (args) => {
-
-  
-  return <ButtonTS {...args} />};
+const Template: Story = (args) => <ButtonTS {...args} />
 
 export const Primary = Template.bind({});
+
 Primary.args = {
   primary: true,
   label: 'Button',
-  height:16,
+  height: 20,
+  width: 150,
 };
 
 

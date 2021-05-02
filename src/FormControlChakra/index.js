@@ -13,9 +13,9 @@ export default function FormControlChakra() {
             <div className="FormControlUiKit">
                 <ChakraProvider>
                     <FormControl id="email">
-                        <FormLabel>Введи Email</FormLabel>
+                        <FormLabel>Email</FormLabel>
                         <Input type="email" />
-                        <FormHelperText>И никому о нём не говори</FormHelperText>
+                        <FormHelperText>Enter your mail correctly</FormHelperText>
                     </FormControl>
                 </ChakraProvider>
             </div>
